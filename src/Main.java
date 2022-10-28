@@ -35,7 +35,7 @@ public class Main {
             case "VIII" -> 8;
             case "IX" -> 9;
             case "X" -> 10;
-            default -> throw new IllegalArgumentException("Ошибка! Не верные данные.");
+            default -> throw new IllegalArgumentException("Ошибка! Неверные данные.");
         };
     }
 
